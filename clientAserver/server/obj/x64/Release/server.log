@@ -1,0 +1,17 @@
+﻿  Validating sources
+  Copying sources remotely to '47.113.184.24'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  server.c
+D:\361EngilshAppInstall\VSwriteself\clientAserver\server\server.c(61,13): warning : conversion to ‘int’ from ‘ssize_t’ may alter its value [-Wconversion]
+D:\361EngilshAppInstall\VSwriteself\clientAserver\server\server.c(61,13): warning :    ret = read(cfd, buf, sizeof(buf));
+D:\361EngilshAppInstall\VSwriteself\clientAserver\server\server.c(61,13): warning :              ^
+D:\361EngilshAppInstall\VSwriteself\clientAserver\server\server.c(62,3): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\361EngilshAppInstall\VSwriteself\clientAserver\server\server.c(62,3): warning :    write(STDOUT_FILENO, buf, ret);
+D:\361EngilshAppInstall\VSwriteself\clientAserver\server\server.c(62,3): warning :    ^
+D:\361EngilshAppInstall\VSwriteself\clientAserver\server\server.c(24,6): warning : unused variable ‘i’ [-Wunused-variable]
+D:\361EngilshAppInstall\VSwriteself\clientAserver\server\server.c(24,6): warning :   int i;
+D:\361EngilshAppInstall\VSwriteself\clientAserver\server\server.c(24,6): warning :       ^
+  Linking objects
+  server.vcxproj -> D:\361EngilshAppInstall\VSwriteself\clientAserver\server\bin\x64\Release\server.out

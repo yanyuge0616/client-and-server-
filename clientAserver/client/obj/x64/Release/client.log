@@ -1,0 +1,13 @@
+﻿  Validating sources
+  Copying sources remotely to '47.113.184.24'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  client.c
+D:\361EngilshAppInstall\VSwriteself\clientAserver\client\client.c(48,3): warning : implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+D:\361EngilshAppInstall\VSwriteself\clientAserver\client\client.c(48,3): warning :    gets(buf);
+D:\361EngilshAppInstall\VSwriteself\clientAserver\client\client.c(48,3): warning :    ^
+  Linking objects
+D:\361EngilshAppInstall\VSwriteself\clientAserver\client\obj\x64\Release\client.o : error : In function `main':
+client.c : error : (.text.startup+0x84): warning: the `gets' function is dangerous and should not be used.
+  client.vcxproj -> D:\361EngilshAppInstall\VSwriteself\clientAserver\client\bin\x64\Release\client.out
